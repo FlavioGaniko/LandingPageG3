@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esskin Assist - Bienvenida</title>
+    <link rel="stylesheet" href="styles-welcome.css" />
+  </head>
+  <body>
+    <!-- Sección de Bienvenida -->
+    <section class="welcome-section">
+      <header>
+        <nav class="top-nav">
+          <ul class="menu-horizontal">
+            <li><a href="index.html">Cerrar Sesión</a></li>
+            <li><a href="#">Soy un Doctor</a></li>
+            <li><a href="#">Configuración</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="welcome-content">
+        <h1>¡Bienvenido de nuevo, [nombre de usuario]!</h1>
+        <h2>¿Qué quiere ver?</h2>
+        <div class="options-grid">
+          <!-- Botón de Registro modificado para redirigir a registro.html -->
+          <button class="option" onclick="location.href='registro.html'">
+            Registro
+          </button>
+          <button class="option" onclick="location.href='diagnostico.html'">
+            Diagnóstico
+          </button>
+          <button class="option">Sugerencias del médico</button>
+          <button class="option">Monitoreo</button>
+        </div>
+        <button class="help-btn">Help?</button>
+      </div>
+    </section>
+  </body>
+</html>
